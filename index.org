@@ -2635,32 +2635,32 @@ Submit pull requests, issues or suggestions on Github: https://github.com/SimonW
 
    Extends [[Content][Content]]
 
-   | field           | type     | default |
-   |-----------------+----------+---------|
-   | type            | [[BaseUnit][BaseUnit]] |         |
-   | health          | float    |      60 |
-   | hitsize         | float    |       7 |
-   | hitsizeTile     | float    |       4 |
-   | speed           | float    |     0.4 |
-   | range           | float    |       0 |
-   | attackLength    | float    |     150 |
-   | rotatespeed     | float    |     0.2 |
-   | baseRotateSpeed | float    |     0.1 |
-   | shootCone       | float    |      15 |
-   | mass            | float    |       1 |
-   | flying          | boolean  |         |
-   | targetAir       | boolean  |    true |
-   | rotateWeapon    | boolean  |   false |
-   | drag            | float    |     0.1 |
-   | maxVelocity     | float    |       5 |
-   | retreatPercent  | float    |     0.6 |
-   | itemCapacity    | int      |      30 |
-   | buildPower      | float    |     0.3 |
-   | minePower       | float    |     0.7 |
-   | weapon          | [[Weapon][Weapon]]   |         |
-   | weaponOffsetY   | float    |         |
-   | engineOffset    | float    |         |
-   | engineSize      | float    |         |
+   | field           | type     | default | notes   |
+   |-----------------+----------+---------+---------|
+   | type            | [[BaseUnit][BaseUnit]] |         |         |
+   | health          | float    |      60 |         |
+   | hitsize         | float    |       7 |         |
+   | hitsizeTile     | float    |       4 |         |
+   | speed           | float    |     0.4 |         |
+   | range           | float    |       0 |         |
+   | attackLength    | float    |     150 |         |
+   | rotatespeed     | float    |     0.2 |         |
+   | baseRotateSpeed | float    |     0.1 |         |
+   | shootCone       | float    |      15 |         |
+   | mass            | float    |       1 |0 mass allows for infinite speed, which kills units instantly|
+   | flying          | boolean  |         |         |
+   | targetAir       | boolean  |    true |         |
+   | rotateWeapon    | boolean  |   false |         |
+   | drag            | float    |     0.1 |         |
+   | maxVelocity     | float    |       5 |         |
+   | retreatPercent  | float    |     0.6 |         |
+   | itemCapacity    | int      |      30 |         |
+   | buildPower      | float    |     0.3 |         |
+   | minePower       | float    |     0.7 |         |
+   | weapon          | [[Weapon][Weapon]]   |         |         |
+   | weaponOffsetY   | float    |         |         |
+   | engineOffset    | float    |         |         |
+   | engineSize      | float    |         |         |
 
    Sprites:
    * ~<name>~
