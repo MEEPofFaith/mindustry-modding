@@ -2680,7 +2680,7 @@ Submit pull requests, issues or suggestions on Github: https://github.com/SimonW
    | maxSpeed           | float   |      10 |                                               |
    | boostSpeed         | float   |    0.75 |                                               |
    | drag               | float   |     0.4 |                                               |
-   | mass               | float   |       1 |                                               |
+   | mass               | float   |       1 |0 mass allows for infinite speed, which kills you instantly|
    | shake              | float   |       0 |                                               |
    | health             | float   |     200 |                                               |
    | hitsize            | float   |       6 |                                               |
