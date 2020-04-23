@@ -1579,7 +1579,7 @@ Submit pull requests, issues or suggestions on Github: https://github.com/SimonW
     | field     | type       | default | notes        |
     |-----------+------------+---------+--------------|
     | shootType | [[BulletType][BulletType]] |         | *[required]* |
-    | powerUse  | float      |       1 |              |
+    | powerUse  | float      |       1 |Power used per tick while reloading |
 
     Defaults:
 
@@ -2974,10 +2974,10 @@ Submit pull requests, issues or suggestions on Github: https://github.com/SimonW
    |--------------------+--------------+---------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
    |                    |              |         | <25>                                                                                                                                                                                |
    | lifetime           | float        |         | amount of ticks the bullet will last                                                                                                                                                |
-   | speed              | float        |         | inital speed of bullet                                                                                                                                                              |
+   | speed              | float        |         | inital speed of bullet, 1 speed = 7.5 blocks/sec                                                                                                                                    |
    | damage             | float        |         | collision damage                                                                                                                                                                    |
    | hitSize            | float        |       4 | collision radius                                                                                                                                                                    |
-   | drawSize           | float        |      40 |                                                                                                                                                                                     |
+   | drawSize           | float        |      40 |                                                                                                                                                                                    |
    | drag               | float        |       0 | decelleration per tick                                                                                                                                                              |
    | pierce             | boolean      |         | whether it can collide                                                                                                                                                              |
    | hitEffect          | [[Effect][Effect]]       |         | created when bullet hits something                                                                                                                                                  |
