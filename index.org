@@ -2804,7 +2804,7 @@ Submit pull requests, issues or suggestions on Github: https://github.com/SimonW
 
    | field            | type   | default | notes                                               |
    |------------------+--------+---------+-----------------------------------------------------|
-   |                  |        |         | <10>                                                |
+   | name             | string |         |One json can't have 2 status effects of the same name|                                       
    | damageMultiplier | float  |       1 |                                                     |
    | armorMultiplier  | float  |       1 |                                                     |
    | speedMultiplier  | float  |       1 |                                                     |
